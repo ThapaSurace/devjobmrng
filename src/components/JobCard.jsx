@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const JobCard = () => {
     return (
@@ -17,11 +18,13 @@ const JobCard = () => {
                 <p className='text-orange-700 mb-3'>
                   Boston, MA
                 </p>
+                <Link to='/job/1'>
                 <button 
                 className='bg-teal-600 text-white p-2 rounded-md'
                 >
                     Read More
                 </button>
+                </Link>
             </div>
         </div>
     )

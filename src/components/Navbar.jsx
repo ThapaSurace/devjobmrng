@@ -20,7 +20,9 @@ const Navbar = () => {
                       <li>Jobs</li>
                     </Link>
 
-                    <li>Add Jobs</li>
+                   <Link to='/addjob'>
+                   <li>Add Jobs</li>
+                   </Link>
                 </ul>
 
                 {/* right */}
